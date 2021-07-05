@@ -8,6 +8,13 @@ module.exports = {
                 pathRewrite: {
                     '^/api': ''
                 }
+            },
+            '/recommand_qa': {
+                target: `https://192.168.190.63:5001/military_camp_recommand_service`,
+                changeOrigin: true,
+                pathRewrite: {
+                    '^/recommand_qa': ''
+                }
             }
         }
     }

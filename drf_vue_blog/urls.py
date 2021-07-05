@@ -29,6 +29,7 @@ from rest_framework_simplejwt.views import (
 )
 
 from user_info.views import UserViewSet
+from service import views as service_views
 
 router = DefaultRouter()
 router.register(r'article', views.ArticleViewSet)
@@ -37,6 +38,7 @@ router.register(r'tag', views.TagViewSet)
 router.register(r'avatar', views.AvatarViewSet)
 router.register(r'comment', CommentViewSet)
 router.register(r'user', UserViewSet)
+router.register(r'service',service_views.ServiceViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

@@ -3,7 +3,7 @@
     <br>
     <br>
     <div id="footer">
-        <p>www.dusaiphoto.com</p>
+        <p>Copyright &copy; 2021 Bluecat.</p>
     </div>
 </template>
 

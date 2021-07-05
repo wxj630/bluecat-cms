@@ -1,1 +1,1 @@
-bluecat-cms modified from https://github.com/stacklens/django-vue-tutorial
+bluecat-cms modified from https://github.com/stacklens/django-vue-tutorialls
